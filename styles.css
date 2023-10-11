@@ -1,0 +1,21 @@
+.navigationLine{
+    background-color: rgb(206, 218, 218);
+    text-align: center;
+    padding: 40px;
+    word-spacing: 100px;
+    
+    
+}
+.navigationLine a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   color:black;
+    text-transform: capitalize;
+    
+}
+#circle{
+color:green;
+padding: 5px;
+float:left ;
+
+}
