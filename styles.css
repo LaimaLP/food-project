@@ -13,9 +13,31 @@
     text-transform: capitalize;
     
 }
+
 #circle{
 color:green;
 padding: 5px;
 float:left ;
 
+}
+.menu{
+    padding: 5px;
+}
+
+.menu:hover{
+    background-color: azure;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+.signUp:hover{
+    background-color: rgb(75, 121, 121);
+    color: black;
+    padding: 50px;
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
 }
