@@ -41,9 +41,30 @@ float:left ;
 
 a.signUp:hover{
     background-color: rgb(238, 134, 168);
-    color: black;
+  
     border-radius: 20px;
     transition: 0.2s;
     cursor: pointer;
-    border: 2px solid rgb(238, 134, 168);
+    
+}
+.mainButton{
+background-color: rgb(211,27,39);
+}
+.mainButton2{
+background-color: rgb(253, 253, 253);
+}
+
+.mainButton2:hover{
+background-color: rgb(235, 228, 228);
+border-radius: 20px;
+transition: 0.2s;
+cursor: pointer;
+}
+.mainButton:hover{
+    background-color: rgb(238, 134, 168);
+    
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+  
 }
