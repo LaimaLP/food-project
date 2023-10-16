@@ -33,11 +33,17 @@ float:left ;
     cursor: pointer;
     
 }
-.signUp:hover{
-    background-color: rgb(75, 121, 121);
+.signUp{
+    background-color: rgb(196, 24, 24);
+    color: aqua;
+}
+
+
+a.signUp:hover{
+    background-color: rgb(238, 134, 168);
     color: black;
-    padding: 50px;
     border-radius: 20px;
     transition: 0.2s;
     cursor: pointer;
+    border: 2px solid rgb(238, 134, 168);
 }
