@@ -1,27 +1,67 @@
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+.main-header {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    
+     
+} 
+
 .navigationLine{
-    background-color: rgb(206, 218, 218);
+    background-color: rgb(13, 243, 243);
     text-align: center;
-    padding: 40px;
-    word-spacing: 100px;
-    
-    
-}
-.navigationLine a{
-    text-decoration: none;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-   color:black;
-    text-transform: capitalize;
-    
+    min-height: 70px;
+    display: block;    
 }
 
+.logo-text{
+   background-color: blue;
+    text-decoration: none;
+    color: black; 
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #circle{
 color:green;
 padding: 5px;
 float:left ;
 
 }
+.icon-block-in-logo{
+    display: inline-block;
+    width: 30%;
+}
+.menu-block{
+    background-color: brown;
+    
+    font-size: 25px; 
+    word-spacing: 25px;
+    display: inline-block;
+    width: 65%;
+}
+
 .menu{
     padding: 5px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   color:black;
+    text-transform: capitalize;
+    
+}
+.nav-bar-logo-menu{
+    float: left;
+    width: 80%;
+    
 }
 
 .menu:hover{
@@ -31,11 +71,24 @@ float:left ;
     border-radius: 20px;
     transition: 0.2s;
     cursor: pointer;
-    
+    }
+
+.signUp-and-bag-block{
+   float: right;
+   
 }
 .signUp{
     background-color: rgb(196, 24, 24);
-    color: aqua;
+    word-spacing:normal;
+     color: white; 
+     border-radius: 50px;
+     padding: 15px 30px 15px 30px; 
+     text-decoration: none;
+   
+}
+.fa{
+    color: rgb(49, 46, 46);
+    font-size: 20px;
 }
 
 
@@ -68,3 +121,18 @@ cursor: pointer;
     cursor: pointer;
   
 }
+
+.various-food{
+    display:block;
+    width: 100%;
+    background-color:blueviolet;
+}
+
+.four-plates{
+    display: inline-block;
+    width: 15%;
+    background-color: aqua;
+}
+.checked {
+    color: orange;
+  }
