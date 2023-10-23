@@ -23,11 +23,13 @@ body * {
     width: 80%;
     /* background-color: aqua; */
     height: 70px;
+    
 }
 
 .icon-block-in-logo{
     display: inline-block;
     width: 30%;
+    margin-left: 20px;
     /* background-color: blue; */
 }
 
@@ -38,6 +40,8 @@ body * {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: calc((70px - 50px)/2);
+    user-select: none;
+    
 }
 #circle{
 color:green;
@@ -51,7 +55,7 @@ float:left ;
     font-size: 25px; 
     word-spacing: 25px;
     display: inline-block;
-    width: 69%;
+    width: 65%;
     margin-top: calc((70px - 25px)/2);
 }
 
@@ -64,11 +68,13 @@ float:left ;
     
 }
 
+.menu-block> :first-child{
+    color: red;
+    size: 15px;
+}
 
 .menu:hover{
-    background-color: azure;
-    color: black;
-    padding: 5px;
+    color: rgba(223, 18, 45, 0.632);
     border-radius: 20px;
     transition: 0.2s;
     cursor: pointer;
