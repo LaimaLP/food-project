@@ -3,18 +3,21 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    
       }
   
   body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: rgb(235, 231, 230)
+    background-color: rgb(235, 231, 230);
+    padding-bottom: 50px;
     
   }
   
 .main-header {
     display: inline-block;
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
+    margin-left: 150px;
     /* background-color: blueviolet; */
      
 } 
@@ -118,14 +121,15 @@ float:left ;
 
 main{
 
-width:100%; 
+width:80%; 
 display: inline block;
 margin-top: 30px ;
+margin-left: 150px;
 }
 .hero{
     margin-left: 130px; 
     margin-top: 40px;
-    width: 35%; 
+    width: 40%; 
     display: inline-block;
   
 }
@@ -168,7 +172,7 @@ cursor: pointer;
 }
 .reviews-block{
     margin-top:50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .reviews-block>img{
@@ -177,26 +181,77 @@ cursor: pointer;
 .stars{
     margin-top: 10px;
 }
-
+.checked {
+    color: orange;
+  }
 .hero-plate{
     display: inline-block; 
-    width: 50%; 
+    width: 45%; 
+     /* background-color: coral; */
     
+    }
 
 
-
-}
 .various-food{
-    display:block;
     width: 100%;
-    background-color:blueviolet;
+    display:inline-block;
+   margin-left: 130px;
+   margin-top: 50px;
+    /* background-color:blueviolet; */
+    
+    
 }
 
 .four-plates{
     display: inline-block;
-    width: 15%;
-    background-color: aqua;
+    width: 20%;
+    max-width:300px;
+    /* background-color: aqua; */
+    border: 2px solid  rgb(164, 162, 162);
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom right, rgb(164, 162, 162), rgb(243, 240, 240));
+  box-shadow: 2px 3px 5px;
+  margin-left: 15px;
+  padding-bottom: 80px;
+  text-align: center;
 }
-.checked {
-    color: orange;
-  }
+.plate-text{
+    margin-left: 50px;
+    margin-top: 15px;
+     text-align: left;
+     font-size: 20px;
+}
+.plate-text> :last-child{
+    margin-top: 15px;
+   
+}
+.plate-text>:nth-child(2){
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.four-plates>img{
+    min-height: 180px;
+    margin-top: -70px;
+    position: relative;
+}
+
+.left-arrow{
+ 
+    margin-top: 100px;
+    color: grey;
+    margin-right: 30px;
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+.right-arrow{
+    margin-left: 30px;
+    margin-top: 100px;
+    color: grey;
+    margin-right: 50px;
+    font-size: 30px;
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
