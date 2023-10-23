@@ -3,21 +3,31 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    
+       
       }
   
   body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: rgb(235, 231, 230);
+    background-color: rgb(223, 217, 217);
     padding-bottom: 50px;
+    
     
   }
   
 .main-header {
-    display: inline-block;
-    width: 80%;
+    margin-left: calc(50% - 700px);
+     width: 1500px;
+     display: inline-block;
+   background-color: rgb(235, 231, 230);
     margin-top: 20px;
-    margin-left: 150px;
+    padding-top: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    
+   
     /* background-color: blueviolet; */
      
 } 
@@ -55,7 +65,7 @@ float:left ;
 
 .menu-block{
     /* background-color: brown; */
-    font-size: 25px; 
+    font-size: 30px; 
     word-spacing: 25px;
     display: inline-block;
     width: 65%;
@@ -73,7 +83,7 @@ float:left ;
 
 .menu-block> :first-child{
     color: red;
-    size: 15px;
+    
 }
 
 .menu:hover{
@@ -87,15 +97,15 @@ float:left ;
    float: right;
    width: 20%;
      margin-top: calc((70px - 15px)/2);
-   font-size: 15px;
+   font-size: 25px;
    
 }
 .signUp{
-    background-color: rgb(196, 24, 24);
+    background-color: rgb(211, 27, 39);
     word-spacing:normal;
      color: white; 
      border-radius: 50px;
-     padding: 15px 30px 15px 30px; 
+     padding: 15px 40px 15px 40px; 
      text-decoration: none;
     
    
@@ -120,11 +130,23 @@ float:left ;
 }
 
 main{
-
-width:80%; 
+    margin-left: calc(50% - 700px);
+    width: 1500px;
+/* width:80%;  */
 display: inline block;
-margin-top: 30px ;
-margin-left: 150px;
+padding: 30px ;
+background-color: rgb(235, 231, 230);
+/* margin-left: 150px; */
+border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+
+
+
+
+
 }
 .hero{
     margin-left: 130px; 
@@ -240,13 +262,13 @@ cursor: pointer;
  
     margin-top: 100px;
     color: grey;
-    margin-right: 30px;
+    margin-right: 10px;
     font-size: 30px;
     display: inline-block;
     cursor: pointer;
 }
 .right-arrow{
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 100px;
     color: grey;
     margin-right: 50px;
