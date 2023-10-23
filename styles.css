@@ -114,25 +114,34 @@ main{
 
 width:100%; 
 display: inline block;
-
-
+margin-top: 30px ;
 }
 .hero{
-    margin-left: 14%; 
-    width: 40%; 
+    margin-left: 130px; 
+    margin-top: 40px;
+    width: 35%; 
     display: inline-block;
+  
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 80px;
+    margin-bottom: 50px;
 }
 .view-menu-button{
 background-color: rgb(211,27,39);
+
+border-radius: 50px; 
+padding: 15px 35px 15px 35px; 
+color: white; 
+text-transform: capitalize;
 }
 
 .book-table-button{
 background-color: rgb(253, 253, 253);
-border: 2px solid white; 
+
 border-radius: 50px; 
-padding: 6px; 
-padding-left: 18px; 
-padding-right: 18px;
+padding: 15px 35px 15px 35px; 
 color:black; 
 text-transform: capitalize;
 }
@@ -151,10 +160,26 @@ cursor: pointer;
     cursor: pointer;
   
 }
-h3{
-    margin-top:15px
+.reviews-block{
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
+.reviews-block>img{
+    margin-top: 15px;
+}
+.stars{
+    margin-top: 10px;
+}
+
+.hero-plate{
+    display: inline-block; 
+    width: 50%; 
+    
+
+
+
+}
 .various-food{
     display:block;
     width: 100%;
