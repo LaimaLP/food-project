@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -12,46 +13,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Foody</title>
 </head>
+
 <body>
-    <main style="margin: 5%; background-color: rgb(235,231,230); width:90%; display: inline block">
-    <div >
-        <nav style="text-decoration: none;"> 
-            <div class="navigationLine" style="text-decoration: none;">
-                <div style="float: left;">
-                    <i class="fa fa-circle" style="font-size:25px;color:red;" id="circle"></i>
-                    <i class="fa fa-circle" style="font-size:25px;color:rgb(255, 221, 0)" id="circle"></i>
-                    <i class="fa fa-circle" style="font-size:25px;color:rgb(50, 222, 76); padding-right: 50px;" id="circle"></i>
-                    <a style=" color: black; font-size: 50px;" href="#">f<span style="color:red">oo</span>dy</a>
-                </div>  
+    <header class="main-header">
+        <div>
+            <nav style="text-decoration: none;">
+                <div class="navigationLine">
+                    <div class="nav-bar-logo-menu">
+                        <div class="icon-block-in-logo">
+                            <i class="fa fa-circle" style="font-size:25px;color:red;" id="circle"></i>
+                            <i class="fa fa-circle" style="font-size:25px;color:rgb(255, 221, 0)" id="circle"></i>
+                            <i class="fa fa-circle" style="font-size:25px;color:rgb(50, 222, 76); padding-right: 50px;"
+                                id="circle"></i>
+                            <p class="logo-text">F<span style="color:red">oo</span>dy</p>
+                        </div>
 
-                <div style="display: inline-block;font-size: 20px; word-spacing: 25px;">             
-                    <a href="#" class="menu" style="color:rgb(196, 24, 24)">home</a>
-                    <a href="#"class="menu" >menu</a>
-                    <a href="#" class="menu"  style="word-spacing:normal">about us</a>
-                    <a href="#"class="menu" >contact</a>
+                        <div class="menu-block">
+                            <a href="#" class="menu" style="color:rgb(196, 24, 24)">home</a>
+                            <a href="#" class="menu">menu</a>
+                            <a href="#" class="menu" style="word-spacing:normal">about us</a>
+                            <a href="#" class="menu">contact</a>
+                        </div>
+                    </div>
+
+                    <div class="signUp-and-bag-block">
+                        <a href="#"><i class="fa fa-shopping-bag mano" style='font-size:24px'></i> </a>
+
+                        <a href="#" class="signUp">Sign Up</a>
+                    </div>
                 </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1
+                style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 80px;">
+                it's not just <br> Food, It's an <br> Experience.</h1>
+            <div>
+                <a class="view-menu-button"
+                    style=" border-radius: 50px; padding: 8px; padding-left: 20px; padding-right: 20px;color: white; text-transform: capitalize;">view
+                    menu</a>
 
-                <div style="float: right; ">    
-                    <a href="#"><i class="fa fa-shopping-bag" style="font-size:36px; float: left;padding-right: 15px;"></i>  </a>      
-                  <i class="fi fi-rr-shopping-bag"></i>        
-                    <a href="#" class="signUp" style="word-spacing:normal; color: white; border-radius: 50px;padding:8px; padding: 15px; padding-left: 30px;padding-right: 30px;"> sign up</a>
+
+                <a class="book-table-button">book a table</a>
+            </div>
+            <div class="reviews-block">
+                <h3>Reviews</h3>
+                <img src="./img/avatars.png" alt="avatars">
+
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+
                 </div>
             </div>
-        </nav>
-    </div>
-    <div style="margin-left: 14%; width: 40%; display: inline-block; ">
-        <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 80px;"> it's not just <br> Food, It's an <br> Experience.</h1>
-        <a class= "mainButton" style= " border-radius: 50px; padding: 8px; padding-left: 20px; padding-right: 20px;color: white; text-transform: capitalize;">view menu</a>
+        </section>
 
-      
-        <a class= "mainButton2" style= "border: 2px solid white; border-radius: 50px; padding: 6px; padding-left: 18px; padding-right: 18px;color:black; text-transform: capitalize;">book a table</a>
-        <p>Reviews</p>
-    </div>  
-          <img style="display: inline-block; width:40% " src="./img/beFono.png" alt="delicious pasta">
-    
-</main>
+        <img style="display: inline-block; width:40% " src="./img/beFono.png" alt="delicious pasta">
+
+        <section class="various-food">
+            <div class="four-plates">
+                <img src="#" alt="Pappardelle">+icon
+                <p> Name </p>
+                <p>About</p>
+                <p>cost</p>
+            </div>
+            <div class="four-plates">
+                <img src="#" alt="Pappardelle">+icon
+                <p> Name </p>
+                <p>About</p>
+                <p>cost</p>
+            </div>
+            <div class="four-plates">
+                <img src="#" alt="Pappardelle">+icon
+                <p> Name </p>
+                <p>About</p>
+                <p>cost</p>
+            </div>
+            <div class="four-plates">
+                <img src="#" alt="Pappardelle">+icon
+                <p> Name </p>
+                <p>About</p>
+                <p>cost</p>
+            </div>
+
+        </section>
+
+    </main>
 </body>
+
 </html>
